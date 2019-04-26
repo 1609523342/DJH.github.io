@@ -1,0 +1,40 @@
+$ mkdir xxx                  创建git仓库文件夹，名为xxx
+$ cd xxx                     打开进入名为xxx的文件夹
+$ pwd                        显示当前目录
+$ git init                   初始化Git仓库
+$ git add xxx                把xxx文件添加进仓库
+$ git commit -m "xxx"        把文件提交到仓库 -m后面的xxx指的是本次提交的说明（commit一次可以提交多个文件）
+$ git status                 查询仓库当前状态
+$ git diff                   比较工作目录中当前文件和暂存区域快照之间的差异并显示出来
+$ git log                    显示从最近到最远的提交日志
+$ git reset                  把文件退回到某个版本
+$ git reflog                 查询命令历史
+$ git checkout -- file       把当次文件的修改清空，退回到最近的一次版本或者刚存到缓存区的版本，也可以当做“一键还原“
+$ git reset HEAD <file>      把暂存区的修改撤销掉重新放回工作区
+$ rm                         删除文件
+$ git rm                     从版本库删除文件
+$ git remote add origin git@github.com:XXX/learngit.git   添加一个远程
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
+$
